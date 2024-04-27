@@ -39,6 +39,7 @@ def view_orders():
         tree.insert("", tk.END, values=row)
     conn.close()
 
+
 def complete_order():
     selected_item = tree.selection()
     if selected_item:
